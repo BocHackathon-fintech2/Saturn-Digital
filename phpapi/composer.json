@@ -1,0 +1,23 @@
+{
+  "name": "constantinos/bank-api",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Constantinos",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "monolog/monolog": "^1.23"
+  },
+
+  "autoload": {
+    "psr-4": {"BankOfCyprus\\": "src/"}
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.1"
+  }
+}
